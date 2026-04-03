@@ -1,0 +1,240 @@
+{
+  "products": [
+    {
+      "id": "flag-001",
+      "name": "Classic American Flag",
+      "slug": "classic-american-flag",
+      "description": "Premium quality 3x5 ft American flag made from durable polyester",
+      "longDescription": "Our classic American flag is crafted from heavy-duty 200-denier polyester, designed to withstand the elements while maintaining vibrant colors. Features reinforced stitching on the fly end and a sturdy header with brass grommets for easy installation. Perfect for residential, commercial, or ceremonial use.",
+      "price": 29.99,
+      "compareAtPrice": 39.99,
+      "category": "flags",
+      "subcategory": "outdoor",
+      "images": [
+        "https://picsum.photos/seed/flag1/800/600",
+        "https://picsum.photos/seed/flag1b/800/600",
+        "https://picsum.photos/seed/flag1c/800/600"
+      ],
+      "inStock": true,
+      "featured": true,
+      "tags": ["outdoor", "classic", "polyester"],
+      "createdAt": "2024-01-15T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "flag-002",
+      "name": "Betsy Ross Heritage Flag",
+      "slug": "betsy-ross-heritage-flag",
+      "description": "Historical 13-star Betsy Ross pattern flag",
+      "longDescription": "Honor American heritage with our authentic Betsy Ross pattern flag. Features the original 13-star design arranged in a circle as tradition dictates. Made from cotton for an authentic historical feel, this flag is perfect for historical reenactments, museums, or patriotic displays.",
+      "price": 49.99,
+      "category": "flags",
+      "subcategory": "heritage",
+      "images": [
+        "https://picsum.photos/seed/flag2/800/600",
+        "https://picsum.photos/seed/flag2b/800/600"
+      ],
+      "inStock": true,
+      "featured": true,
+      "tags": ["heritage", "cotton", "historical"],
+      "createdAt": "2024-01-15T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "flag-003",
+      "name": "Thin Blue Line Flag",
+      "slug": "thin-blue-line-flag",
+      "description": "Support our law enforcement with this meaningful design",
+      "longDescription": "Show your support for law enforcement with our Thin Blue Line flag. Features the iconic American flag design with a blue stripe representing police officers who serve and protect our communities. Made from weather-resistant nylon for indoor and outdoor display.",
+      "price": 34.99,
+      "category": "flags",
+      "subcategory": "support",
+      "images": [
+        "https://picsum.photos/seed/flag3/800/600",
+        "https://picsum.photos/seed/flag3b/800/600"
+      ],
+      "inStock": true,
+      "featured": false,
+      "tags": ["support", "law enforcement", "nylon"],
+      "createdAt": "2024-01-20T00:00:00Z",
+      "updatedAt": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "flag-004",
+      "name": "Gadsden Don't Tread On Me Flag",
+      "slug": "gadsden-flag",
+      "description": "Historic revolutionary war era Don't Tread On Me flag",
+      "longDescription": "Carry on the spirit of American independence with our Gadsden flag. Features the iconic coiled rattlesnake and 'Don't Tread On Me' motto. Printed on heavy canvas with brass grommets. A powerful symbol of freedom and personal liberty.",
+      "price": 39.99,
+      "category": "flags",
+      "subcategory": "heritage",
+      "images": [
+        "https://picsum.photos/seed/flag4/800/600",
+        "https://picsum.photos/seed/flag4b/800/600"
+      ],
+      "inStock": true,
+      "featured": true,
+      "tags": ["heritage", "liberty", "canvas"],
+      "createdAt": "2024-01-22T00:00:00Z",
+      "updatedAt": "2024-01-22T00:00:00Z"
+    },
+    {
+      "id": "apparel-001",
+      "name": "Liberty Tee - Navy",
+      "slug": "liberty-tee-navy",
+      "description": "Premium cotton t-shirt with distressed American flag graphic",
+      "longDescription": "Wear your patriotism with pride in our Liberty Tee. This premium cotton t-shirt features a beautifully distressed American flag graphic that gives it a worn, vintage feel. Pre-shrunk and garment-washed for ultimate comfort. Available in navy with white and red graphics.",
+      "price": 32.99,
+      "category": "apparel",
+      "subcategory": "t-shirts",
+      "images": [
+        "https://picsum.photos/seed/app1/800/600",
+        "https://picsum.photos/seed/app1b/800/600",
+        "https://picsum.photos/seed/app1c/800/600"
+      ],
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "inStock": true,
+      "featured": true,
+      "tags": ["t-shirt", "cotton", "graphic"],
+      "createdAt": "2024-02-01T00:00:00Z",
+      "updatedAt": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "apparel-002",
+      "name": "Stars & Stripes Hoodie",
+      "slug": "stars-stripes-hoodie",
+      "description": "Cozy pullover hoodie with American flag sleeve design",
+      "longDescription": "Stay warm and patriotic with our Stars & Stripes Hoodie. Features a bold American flag design on the sleeves with a solid navy body. Made from a soft cotton-polyester blend with fleece lining for maximum comfort. Perfect for cool evenings and showing your American pride.",
+      "price": 59.99,
+      "compareAtPrice": 74.99,
+      "category": "apparel",
+      "subcategory": "hoodies",
+      "images": [
+        "https://picsum.photos/seed/app2/800/600",
+        "https://picsum.photos/seed/app2b/800/600"
+      ],
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "inStock": true,
+      "featured": true,
+      "tags": ["hoodie", "fleece", "pullover"],
+      "createdAt": "2024-02-05T00:00:00Z",
+      "updatedAt": "2024-02-05T00:00:00Z"
+    },
+    {
+      "id": "apparel-003",
+      "name": "American Made Tank Top",
+      "slug": "american-made-tank-top",
+      "description": "Athletic fit tank top with vintage American Made text",
+      "longDescription": "Show that you're American Made with our vintage-style tank top. Perfect for workouts or casual summer days. Features distressed 'American Made' typography with a small American flag. Lightweight, breathable fabric keeps you cool while showing your pride.",
+      "price": 24.99,
+      "category": "apparel",
+      "subcategory": "tank-tops",
+      "images": [
+        "https://picsum.photos/seed/app3/800/600",
+        "https://picsum.photos/seed/app3b/800/600"
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "inStock": true,
+      "featured": false,
+      "tags": ["tank", "athletic", "vintage"],
+      "createdAt": "2024-02-10T00:00:00Z",
+      "updatedAt": "2024-02-10T00:00:00Z"
+    },
+    {
+      "id": "apparel-004",
+      "name": "Founding Fathers Polo",
+      "slug": "founding-fathers-polo",
+      "description": "Classic fit polo with subtle patriotic embroidery",
+      "longDescription": "Look sharp and patriotic with our Founding Fathers Polo. Features subtle American flag embroidery on the chest and a classic fit that's perfect for work or casual wear. Made from premium pique cotton for breathability and style. A sophisticated way to show your American pride.",
+      "price": 54.99,
+      "category": "apparel",
+      "subcategory": "polos",
+      "images": [
+        "https://picsum.photos/seed/app4/800/600",
+        "https://picsum.photos/seed/app4b/800/600"
+      ],
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "inStock": true,
+      "featured": false,
+      "tags": ["polo", "embroidery", "classic"],
+      "createdAt": "2024-02-15T00:00:00Z",
+      "updatedAt": "2024-02-15T00:00:00Z"
+    },
+    {
+      "id": "accessories-001",
+      "name": "Freedom Cap",
+      "slug": "freedom-cap",
+      "description": "Adjustable baseball cap with embroidered flag",
+      "longDescription": "Top off your patriotic look with our Freedom Cap. Features a 3D embroidered American flag on the front panel with 'USA' text. Adjustable snapback closure fits most head sizes. Made from premium cotton twill for durability and comfort.",
+      "price": 27.99,
+      "category": "accessories",
+      "subcategory": "hats",
+      "images": [
+        "https://picsum.photos/seed/acc1/800/600",
+        "https://picsum.photos/seed/acc1b/800/600"
+      ],
+      "inStock": true,
+      "featured": true,
+      "tags": ["hat", "cap", "embroidered"],
+      "createdAt": "2024-03-01T00:00:00Z",
+      "updatedAt": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "accessories-002",
+      "name": "Patriot Sunglasses",
+      "slug": "patriot-sunglasses",
+      "description": "Aviator-style sunglasses with red, white, and blue lenses",
+      "longDescription": "See the world through patriotic eyes with our Patriot Sunglasses. Features aviator-style frames with gradient lenses that shift from blue to white to red. UV400 protection keeps your eyes safe while you show your American spirit. Includes protective case.",
+      "price": 44.99,
+      "category": "accessories",
+      "subcategory": "eyewear",
+      "images": [
+        "https://picsum.photos/seed/acc2/800/600",
+        "https://picsum.photos/seed/acc2b/800/600"
+      ],
+      "inStock": true,
+      "featured": false,
+      "tags": ["sunglasses", "aviator", "uv-protection"],
+      "createdAt": "2024-03-05T00:00:00Z",
+      "updatedAt": "2024-03-05T00:00:00Z"
+    },
+    {
+      "id": "accessories-003",
+      "name": "Eagle Talon Belt",
+      "slug": "eagle-talon-belt",
+      "description": "Genuine leather belt with eagle buckle",
+      "longDescription": "Grab life by the talons with our Eagle Talon Belt. Features a stunning two-tone eagle claw buckle cast in zinc alloy with antique silver finish. Genuine leather strap in classic brown. A bold statement piece for the patriotic gentleman.",
+      "price": 49.99,
+      "category": "accessories",
+      "subcategory": "belts",
+      "images": [
+        "https://picsum.photos/seed/acc3/800/600",
+        "https://picsum.photos/seed/acc3b/800/600"
+      ],
+      "inStock": true,
+      "featured": false,
+      "tags": ["belt", "leather", "eagle"],
+      "createdAt": "2024-03-10T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z"
+    },
+    {
+      "id": "accessories-004",
+      "name": "Liberty Keychain",
+      "slug": "liberty-keychain",
+      "description": "Miniature Statue of Liberty replica keychain",
+      "longDescription": "Carry the spirit of freedom with you wherever you go with our Liberty Keychain. Features a detailed miniature replica of the Statue of Liberty in antique copper finish. Solid metal construction with durable keyring. The perfect small token of American pride.",
+      "price": 14.99,
+      "category": "accessories",
+      "subcategory": "keychains",
+      "images": [
+        "https://picsum.photos/seed/acc4/800/600",
+        "https://picsum.photos/seed/acc4b/800/600"
+      ],
+      "inStock": true,
+      "featured": true,
+      "tags": ["keychain", "statue of liberty", "copper"],
+      "createdAt": "2024-03-15T00:00:00Z",
+      "updatedAt": "2024-03-15T00:00:00Z"
+    }
+  ]
+}
