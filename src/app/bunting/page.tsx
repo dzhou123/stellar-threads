@@ -48,6 +48,42 @@ export default function BuntingInfoPage() {
       </section>
 
       <section className="bg-silver-50 py-16 md:py-20">
+        <div className="container-width max-w-4xl">
+          <div className="mb-8">
+            <span className="text-crimson font-medium uppercase tracking-wider text-sm">Also Known As</span>
+            <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-navy mt-2 mb-4">
+              Same thing, lots of names
+            </h2>
+            <p className="text-silver-600 leading-relaxed">
+              Depending on style, region, and who you’re asking, the same
+              product goes by a bunch of different names. If any of these are
+              what you came searching for, you’re in the right place.
+            </p>
+          </div>
+          <div className="bg-white rounded-xl shadow-sm border border-silver-200 overflow-hidden">
+            <dl className="divide-y divide-silver-200">
+              {[
+                ["Pennant banners / pennant strings", "Emphasizes the triangular flag shape"],
+                ["Flag garlands", "A more general decorative term"],
+                ["Party bunting", "Common in the UK and event industry"],
+                ["Banner flags", "Casual, interchangeable use"],
+                ["String flags", "Descriptive — often used in retail and wholesale"],
+                ["Festival flags", "Used for outdoor or cultural events"],
+                ["Triangle banners", "Very literal — describes the shape"],
+                ["Swag bunting", "When draped in curves rather than straight lines"],
+                ["Patriotic bunting", "In the U.S., this can also refer to the semi-circular pleated fabric (not just strings — note: that pleated style is not what we sell)"],
+              ].map(([name, desc]) => (
+                <div key={name} className="grid grid-cols-1 sm:grid-cols-3 gap-2 px-6 py-4">
+                  <dt className="font-semibold text-navy">{name}</dt>
+                  <dd className="sm:col-span-2 text-silver-700">{desc}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding">
         <div className="container-width">
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <span className="text-crimson font-medium uppercase tracking-wider text-sm">You’ve Seen This</span>
