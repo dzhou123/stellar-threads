@@ -9,9 +9,8 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Shop All" },
-  { href: "/products?category=flags", label: "Flags" },
-  { href: "/products?category=apparel", label: "Apparel" },
-  { href: "/products?category=accessories", label: "Accessories" },
+  { href: "/products?category=flags", label: "Nation Flags" },
+  { href: "/products?category=buntings", label: "Bunting Strings" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -29,14 +28,14 @@ export default function Header() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-navy rounded-full flex items-center justify-center">
-                <span className="text-white font-montserrat font-bold text-lg">ST</span>
+                <span className="text-white font-montserrat font-bold text-lg">FA</span>
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:block leading-tight">
                 <span className="font-montserrat font-bold text-xl text-navy">
-                  Stellar
+                  The Flag
                 </span>
-                <span className="font-montserrat font-bold text-xl text-crimson">
-                  Threads
+                <span className="font-montserrat font-bold text-xl text-crimson ml-1">
+                  Authority
                 </span>
               </div>
             </Link>

@@ -6,7 +6,7 @@ export interface Product {
   longDescription: string;
   price: number;
   compareAtPrice?: number;
-  category: "flags" | "apparel" | "accessories";
+  category: "flags" | "buntings";
   subcategory?: string;
   images: string[];
   variants?: ProductVariant[];

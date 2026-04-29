@@ -249,10 +249,9 @@ export default function AdminProductsPage() {
   "longDescription": "Full product description",
   "price": 29.99,
   "compareAtPrice": 39.99,  // optional, for sale items
-  "category": "flags|apparel|accessories",
+  "category": "flags|buntings",
   "subcategory": "optional subcategory",
   "images": ["url1", "url2", "url3"],
-  "sizes": ["S", "M", "L"],  // optional, for apparel
   "inStock": true,
   "featured": true,
   "tags": ["tag1", "tag2"]
@@ -373,9 +372,8 @@ function ProductModal({
                 onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                 className="input-field"
               >
-                <option value="flags">Flags</option>
-                <option value="apparel">Apparel</option>
-                <option value="accessories">Accessories</option>
+                <option value="flags">Nation Flags</option>
+                <option value="buntings">Bunting Strings</option>
               </select>
             </div>
             <div>

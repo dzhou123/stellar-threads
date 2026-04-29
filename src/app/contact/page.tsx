@@ -39,8 +39,8 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-silver-300 max-w-2xl mx-auto">
-            Have a question about our products or need help with your order? 
-            We&apos;re here to help!
+            Bulk orders, venue setups, and World Cup planning — drop us a line
+            and we&apos;ll get back to you fast.
           </p>
         </div>
       </section>
@@ -169,20 +169,20 @@ export default function ContactPage() {
               <div className="bg-white rounded-xl shadow-sm p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Mail size={24} className="text-navy" />
+                    <Phone size={24} className="text-navy" />
                   </div>
                   <div>
                     <h3 className="font-montserrat font-semibold text-navy mb-1">
-                      Email Us
+                      Call or Text
                     </h3>
                     <p className="text-silver-600 text-sm mb-2">
-                      We reply within 24 hours
+                      Best for venue and bulk orders
                     </p>
                     <a
-                      href="mailto:support@stellarthreads.com"
-                      className="text-navy hover:text-crimson transition-colors"
+                      href="tel:+12816545610"
+                      className="text-navy hover:text-crimson transition-colors font-medium"
                     >
-                      support@stellarthreads.com
+                      (281) 654-5610
                     </a>
                   </div>
                 </div>
@@ -191,21 +191,16 @@ export default function ContactPage() {
               <div className="bg-white rounded-xl shadow-sm p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-navy/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Phone size={24} className="text-navy" />
+                    <Mail size={24} className="text-navy" />
                   </div>
                   <div>
                     <h3 className="font-montserrat font-semibold text-navy mb-1">
-                      Call Us
+                      Email Us
                     </h3>
                     <p className="text-silver-600 text-sm mb-2">
-                      Mon-Fri, 9am-6pm EST
+                      Email address coming soon — call or text us in the meantime
                     </p>
-                    <a
-                      href="tel:+15551234567"
-                      className="text-navy hover:text-crimson transition-colors"
-                    >
-                      (555) 123-4567
-                    </a>
+                    <span className="text-silver-500 italic">Email coming soon</span>
                   </div>
                 </div>
               </div>
@@ -217,11 +212,11 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-montserrat font-semibold text-navy mb-1">
-                      Visit Us
+                      Based In
                     </h3>
                     <p className="text-silver-600 text-sm">
-                      123 Freedom Avenue<br />
-                      Patriot City, USA 10001
+                      Houston, Texas<br />
+                      Serving venues, fans, and event spaces worldwide
                     </p>
                   </div>
                 </div>
@@ -237,8 +232,8 @@ export default function ContactPage() {
                       Business Hours
                     </h3>
                     <div className="text-silver-600 text-sm space-y-1">
-                      <p>Monday - Friday: 9am - 6pm EST</p>
-                      <p>Saturday: 10am - 4pm EST</p>
+                      <p>Monday - Friday: 9am - 6pm CT</p>
+                      <p>Saturday: 10am - 4pm CT</p>
                       <p>Sunday: Closed</p>
                     </div>
                   </div>

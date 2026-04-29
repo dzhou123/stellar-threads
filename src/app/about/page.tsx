@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Users, Award, Heart, Flag } from "lucide-react";
+import { ArrowRight, Globe2, Trophy, Heart, Flag } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -10,12 +10,14 @@ export default function AboutPage() {
           <div className="max-w-3xl">
             <span className="text-crimson font-medium uppercase tracking-wider text-sm">Our Story</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold mt-4 mb-6">
-              Born from Patriotism,<br />
-              <span className="text-crimson">Built for Americans</span>
+              Houston Meets the World.<br />
+              <span className="text-crimson">We Bring the Flags.</span>
             </h1>
             <p className="text-xl text-silver-300 leading-relaxed">
-              Stellar Threads was founded on a simple belief: Americans deserve 
-              high-quality merchandise that honors their love for the red, white, and blue.
+              The Flag Authority outfits Houston for the 2026 FIFA World Cup —
+              every qualifying nation, every fan group, every venue. One job,
+              done right: getting flags into the hands and onto the walls of
+              the people celebrating the world&apos;s biggest tournament.
             </p>
           </div>
         </div>
@@ -27,16 +29,16 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/about1/800/600"
-                  alt="American manufacturing"
+                  src="https://picsum.photos/seed/houston-skyline/800/600"
+                  alt="Houston during the World Cup"
                   width={800}
                   height={600}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-crimson text-white p-6 rounded-xl shadow-xl max-w-xs">
-                <p className="font-montserrat font-bold text-2xl">Est. 2020</p>
-                <p className="text-silver-200">Serving patriots nationwide</p>
+                <p className="font-montserrat font-bold text-2xl">Houston, TX</p>
+                <p className="text-silver-200">2026 World Cup Host City</p>
               </div>
             </div>
             <div>
@@ -44,21 +46,24 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-silver-600 mb-6 leading-relaxed">
-                We believe that wearing your patriotism shouldn&apos;t mean sacrificing quality. 
-                Every Stellar Threads product is crafted with care, using premium materials 
-                that are built to last. From the flags that fly over homes to the apparel 
-                that tells your story, we&apos;re here to help you show your colors.
+                Houston is one of the most international cities in America — and
+                in 2026 it becomes one of 16 host cities for the most international
+                event on the planet. Fans from every corner of the world will fly
+                in for the FIFA World Cup, and the city is going to look the part.
               </p>
               <p className="text-silver-600 mb-6 leading-relaxed">
-                Our commitment goes beyond commerce. We&apos;re dedicated to supporting American 
-                workers and manufacturers, ensuring that when you buy from Stellar Threads, 
-                you&apos;re investing in our nation&apos;s economic strength.
+                We exist to outfit it. The Flag Authority stocks every qualifying
+                nation in 3×5 ft format and offers full 25-nation bunting strings
+                for venues that want every team represented at once. Storm-grade
+                110g polyester. Vivid digital prints. Built to last from first
+                whistle through the final.
               </p>
               <p className="text-silver-600 leading-relaxed">
-                When you wear Stellar Threads, you&apos;re not just wearing a product — you&apos;re 
-                wearing a statement. A statement that says you believe in something bigger 
-                than yourself. That you&apos;re proud of where you come from. That you stand for 
-                freedom, opportunity, and the American dream.
+                We&apos;re neutral. We&apos;re not picking a side — we&apos;re
+                here for every fan flying in to support their team. Whether
+                you&apos;re a sports bar going all-in on group stage, a hotel
+                welcoming international guests, or a fan kitting out a watch
+                party, we&apos;ve got the colors.
               </p>
             </div>
           </div>
@@ -70,31 +75,31 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <span className="text-crimson font-medium uppercase tracking-wider text-sm">Why Choose Us</span>
             <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-navy mt-2">
-              The Stellar Threads Difference
+              The Flag Authority Difference
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                icon: Flag,
-                title: "Premium Quality",
-                desc: "Every product is crafted from the finest materials for lasting durability"
+                icon: Globe2,
+                title: "Every Nation",
+                desc: "All 25 World Cup 2026 qualifying nations stocked and ready to ship",
               },
               {
-                icon: Users,
-                title: "American Made",
-                desc: "Supporting domestic manufacturing and American workers"
+                icon: Trophy,
+                title: "Tournament Focus",
+                desc: "One job done well — flags for the world’s biggest sporting event",
+              },
+              {
+                icon: Flag,
+                title: "Storm-Grade Build",
+                desc: "110g polyester with vivid digital prints, made to handle outdoor display",
               },
               {
                 icon: Heart,
-                title: "Customer First",
-                desc: "30-day satisfaction guarantee with hassle-free returns"
-              },
-              {
-                icon: Award,
-                title: "Fast Shipping",
-                desc: "Quick delivery on all orders, free on purchases over $50"
+                title: "Neutral Ground",
+                desc: "Every team, every fan — we’re here for the whole tournament",
               },
             ].map((value, i) => (
               <div key={i} className="bg-white rounded-xl p-6 text-center shadow-sm">
@@ -116,25 +121,25 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl font-montserrat font-bold text-navy mb-6">
-                Our Values
+                What We Stand For
               </h2>
               <div className="space-y-6">
                 {[
                   {
-                    title: "Quality Over Quantity",
-                    desc: "We&apos;d rather make one exceptional product than ten mediocre ones. Every item in our store meets our exacting standards."
+                    title: "The Tournament Belongs to Everyone",
+                    desc: "Every qualifying nation. Every fan community. We don’t pick favorites — we stock the world.",
                   },
                   {
-                    title: "Integrity in Business",
-                    desc: "Honest pricing, transparent policies, and treating every customer like family. That&apos;s the Stellar Threads way."
+                    title: "Quality You Can Hang Up",
+                    desc: "Storm-grade 110g polyester, sharp digital prints, reinforced bunting lines. Built for sun, wind, and a long tournament.",
                   },
                   {
-                    title: "Community Connection",
-                    desc: "We actively give back to veteran organizations, first responder groups, and community charities across America."
+                    title: "Houston First",
+                    desc: "We’re a Houston-focused operation. Local restaurants, venues, and fan groups get the speed and service they need before kickoff.",
                   },
                   {
-                    title: "Continuous Improvement",
-                    desc: "We&apos;re always listening to our customers and evolving our products to serve you better."
+                    title: "Real Volume Pricing",
+                    desc: "Outfitting a hotel, restaurant, or event space? Talk to us — we work with venues at scale.",
                   },
                 ].map((value, i) => (
                   <div key={i} className="flex gap-4">
@@ -154,8 +159,8 @@ export default function AboutPage() {
             <div className="order-1 lg:order-2">
               <div className="aspect-square rounded-2xl overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/about2/800/800"
-                  alt="Our team"
+                  src="https://picsum.photos/seed/world-flags/800/800"
+                  alt="International flags"
                   width={800}
                   height={800}
                   className="w-full h-full object-cover"
@@ -169,14 +174,14 @@ export default function AboutPage() {
       <section className="bg-navy text-white py-16 md:py-20">
         <div className="container-width text-center">
           <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-6">
-            Ready to Show Your Colors?
+            Ready for the World Cup?
           </h2>
           <p className="text-silver-300 max-w-2xl mx-auto mb-8">
-            Browse our collection of premium American flag merchandise and find the 
-            perfect way to display your patriotism.
+            Browse the collection — every qualifying nation in stock, plus full
+            25-nation bunting strings for venues going all in.
           </p>
           <Link href="/products" className="btn-secondary inline-flex items-center gap-2">
-            Shop Now
+            Shop the Collection
             <ArrowRight size={20} />
           </Link>
         </div>

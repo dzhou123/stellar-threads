@@ -10,9 +10,8 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   { value: "all", label: "All Products" },
-  { value: "flags", label: "Flags" },
-  { value: "apparel", label: "Apparel" },
-  { value: "accessories", label: "Accessories" },
+  { value: "flags", label: "Nation Flags" },
+  { value: "buntings", label: "Bunting Strings" },
 ];
 
 const sortOptions = [
@@ -84,10 +83,10 @@ function ProductsContent() {
       <div className="bg-navy text-white py-12">
         <div className="container-width">
           <h1 className="text-3xl md:text-4xl font-montserrat font-bold mb-2">
-            Our Products
+            Shop Flags
           </h1>
           <p className="text-silver-300">
-            Discover premium American flag merchandise
+            Every nation, ready to fly — World Cup 2026 collection
           </p>
         </div>
       </div>

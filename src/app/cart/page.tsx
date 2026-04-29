@@ -25,8 +25,8 @@ export default function CartPage() {
             Your Cart is Empty
           </h1>
           <p className="text-silver-600 mb-8">
-            Looks like you haven&apos;t added any patriotic merchandise to your cart yet. 
-            Start shopping to show your American pride!
+            Your cart is empty. Browse the collection and pick up the flags you need
+            for the world&apos;s biggest tournament.
           </p>
           <Link href="/products" className="btn-primary inline-flex items-center gap-2">
             Start Shopping
