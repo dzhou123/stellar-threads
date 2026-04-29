@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/products", label: "Shop All" },
   { href: "/products?category=flags", label: "Nation Flags" },
   { href: "/products?category=buntings", label: "Bunting Strings" },
+  { href: "/bunting", label: "What is Bunting?" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

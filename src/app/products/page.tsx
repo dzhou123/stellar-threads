@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useMemo, useEffect, Suspense } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Search, SlidersHorizontal, X, ChevronDown, Loader2 } from "lucide-react";
+import { Search, SlidersHorizontal, X, ChevronDown, Loader2, Info, ArrowRight } from "lucide-react";
 import { ProductCard } from "@/components/product";
 import { getAllProducts } from "@/lib/products";
 import { Product } from "@/types";
@@ -217,6 +218,24 @@ function ProductsContent() {
                 </div>
               )}
             </div>
+
+            {selectedCategory === "buntings" && (
+              <Link
+                href="/bunting"
+                className="group flex items-start sm:items-center gap-4 bg-navy text-white rounded-xl p-4 mb-6 hover:bg-navy-600 transition-colors"
+              >
+                <div className="w-10 h-10 bg-crimson/30 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Info size={20} className="text-white" />
+                </div>
+                <div className="flex-1">
+                  <p className="font-montserrat font-semibold">New to bunting?</p>
+                  <p className="text-silver-300 text-sm">
+                    Read the field guide — what it is, where you’ve seen it, and how to hang it in five minutes.
+                  </p>
+                </div>
+                <ArrowRight size={20} className="text-silver-300 group-hover:translate-x-1 transition-transform flex-shrink-0" />
+              </Link>
+            )}
 
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">

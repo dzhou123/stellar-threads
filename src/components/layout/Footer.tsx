@@ -32,6 +32,7 @@ export default function Footer() {
                 { href: "/products", label: "Shop All" },
                 { href: "/products?category=flags", label: "Nation Flags" },
                 { href: "/products?category=buntings", label: "Bunting Strings" },
+                { href: "/bunting", label: "What is Bunting?" },
                 { href: "/about", label: "About Us" },
                 { href: "/contact", label: "Contact" },
               ].map((link) => (

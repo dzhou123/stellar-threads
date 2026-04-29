@@ -29,10 +29,10 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/houston-skyline/800/600"
-                  alt="Houston during the World Cup"
-                  width={800}
-                  height={600}
+                  src="https://images.unsplash.com/photo-1666610278692-51058ed05e9a?w=1200&q=80"
+                  alt="Houston, Texas skyline at night"
+                  width={1200}
+                  height={800}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -168,6 +168,59 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-silver-50 py-16 md:py-24">
+        <div className="container-width">
+          <div className="text-center mb-12 max-w-3xl mx-auto">
+            <span className="text-crimson font-medium uppercase tracking-wider text-sm">Founders</span>
+            <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-navy mt-2 mb-4">
+              Meet the Team
+            </h2>
+            <p className="text-silver-600">
+              Two Houstonians who saw the world coming to town and wanted to
+              make sure every fan, venue, and balcony was ready.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {[
+              {
+                initials: "DW",
+                name: "Daniel Wang",
+                title: "Co-Founder",
+                bio: "Houston-based, lifelong soccer fan. Saw Houston winning host-city status as the moment to build something for the international fan community here. Runs operations and partnerships — the person you’ll talk to about venue and bulk orders.",
+              },
+              {
+                initials: "DZ",
+                name: "David Zhou",
+                title: "Co-Founder",
+                bio: "Engineer and operator. Built the e-commerce side from scratch and runs logistics — fast shipping, real product photos, no fluff. Focused on making sure orders go out the door the same day they come in.",
+              },
+            ].map((person) => (
+              <div key={person.name} className="bg-white rounded-2xl shadow-sm p-8 text-center">
+                <div className="w-32 h-32 rounded-full bg-navy flex items-center justify-center mx-auto mb-6 ring-4 ring-crimson/20">
+                  <span className="text-white font-montserrat font-bold text-4xl">
+                    {person.initials}
+                  </span>
+                </div>
+                <h3 className="font-montserrat font-bold text-2xl text-navy mb-1">
+                  {person.name}
+                </h3>
+                <p className="text-crimson font-medium uppercase tracking-wider text-sm mb-4">
+                  {person.title}
+                </p>
+                <p className="text-silver-600 leading-relaxed">
+                  {person.bio}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-center text-silver-500 text-sm mt-8">
+            Real photos coming soon.
+          </p>
         </div>
       </section>
 

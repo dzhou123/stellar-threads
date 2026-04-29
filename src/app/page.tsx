@@ -167,7 +167,7 @@ export default function HomePage() {
               },
               {
                 title: "Bunting Strings",
-                desc: "25 nations on one string — small (8×12 in) or large (12×18 in)",
+                desc: "25 nations on one string — small (8×12 in) or large (12×18 in). New here? Read what bunting is.",
                 image: "https://picsum.photos/seed/buntings/800/600",
                 href: "/products?category=buntings",
               },
